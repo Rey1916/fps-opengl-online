@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: sudo apt update && sudo apt install -y build-essential freeglut3-dev libglm-dev
+    command: make && ./fps
